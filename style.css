@@ -9,7 +9,7 @@ body h1{
     color: rgba(3, 3, 90, 0.993);
     font-family: Tahoma;
 }
- 
+/*For all the changes in header segment*/ 
 header li{
     display: inline;
 
@@ -24,7 +24,7 @@ header ul {
     background-color: rgba(115, 69, 121, 0.733);
   }
 
-  #head{ 
+#head{ 
     font-size: 35px;
     color: aliceblue;
 }
@@ -39,7 +39,7 @@ header a:hover{
     text-decoration: underline;
 }
 
-
+/*Search Bar*/
 #searchbar{
     text-align: center;
     top: 355px;
@@ -67,14 +67,8 @@ button:hover{
 }
 
 
-body h2{ 
-    text-align: center;
-    padding-top:10px;
-    font-family: Tahoma;
-} 
-
-
 /* Style for meal containers */
+
 .meal {
     border: 1px solid #ddd;
     margin-top: 40px;
@@ -91,6 +85,7 @@ body h2{
 }
 
 /* Style for meal images */
+
 .meal img {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -101,7 +96,7 @@ body h2{
     border-style: hidden;
 }
 
-/* Style for meal headings */
+/* Style for meal headings h3 */
 .meal h3 {
     margin: 10px 0;
     position: static;
@@ -118,7 +113,7 @@ body h2{
     font-family: 'Arial Narrow', Arial, sans-serif;
     margin: 0;
     padding: 0;
-    /* ?margin-left: 20px; */
+
 }
 
 .meal li {
